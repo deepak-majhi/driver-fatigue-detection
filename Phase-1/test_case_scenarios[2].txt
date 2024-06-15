@@ -1,0 +1,23 @@
+| Test Case Scenario                       | Expected Result                                                | Actual Result             | Status  |
+|--------------------------------------    | ---------------------------                                    |----------                 |---------|
+| Normal Driving (No Fatigue)              | The driver is alert and engaged in normal 			    | Open                      | Pass    |
+ 				             driving conditions. The system is expected 
+					     to detect open eyes and categorize the state 
+					     as "Open" or "Not Fatigued."                                  
+
+
+| Fatigue (Closed Eyes)                    | Simulates a fatigued driver with closed eyes, 		    | Closed                    | Pass    |
+					     indicating a drowsy state. The system is expected
+    				             to detect closed eyes and categorize the state as 
+       					     "Closed" or "Fatigued." 
+
+
+| Yawning (Fatigue Indicator)              | The driver exhibits yawning, a common indicator of             | Yawn                      | Pass    |
+					     fatigue. The system is expected to recognize yawning 
+					     behavior and categorize the state as "Yawn" or "Fatigued." 
+
+
+| Eyes Open but Fatigued                   | Represents a fatigued driver with open eyes, challenging 	    | Open                      | Pass    |
+					     the system to detect subtle signs of fatigue. The system 
+					     is expected to analyze features beyond eye closure and 
+					     categorize the state as "Open" or "Not Fatigued." 

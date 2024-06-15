@@ -1,0 +1,13 @@
+
+| Test Case Scenario                  | Expected Result       | Actual Result         | Status  |
+|--------------------------------------|-----------------------|-----------------------|---------|
+| Normal Driving (No Fatigue)          | Open or Not Fatigued  | Open                  | Pass    |
+| Fatigue (Closed Eyes)                | Closed or Fatigued    | Closed                | Pass    |
+| Yawning (Fatigue Indicator)          | Yawn or Fatigued      | Yawn                  | Pass    |
+| Eyes Open but Fatigued               | Open or Not Fatigued  | Open                  | Pass    |
+| Challenging Lighting Conditions      | Varies                | ...                   | Pass/Fail|
+| Different Individuals                | Varies                | ...                   | Pass/Fail|
+| Wearing Glasses or Sunglasses        | Varies                | ...                   | Pass/Fail|
+| Partial Face Occlusion               | Varies                | ...                   | Pass/Fail|
+| Distractions                         | Varies                | ...                   | Pass/Fail|
+| Real-world Driving Scenarios         | Varies                | ...                   | Pass/Fail|
